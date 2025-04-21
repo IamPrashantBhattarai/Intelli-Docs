@@ -1,0 +1,21 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mr.flutter.plugin.filepicker" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+6
+7    <queries>
+7-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:3:3-8:13
+8        <intent>
+8-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:4:5-7:14
+9            <action android:name="android.intent.action.GET_CONTENT" />
+9-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:5:7-66
+9-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:5:15-63
+10
+11            <data android:mimeType="*/*" />
+11-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:6:7-38
+11-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:6:13-35
+12        </intent>
+13    </queries>
+14
+15</manifest>

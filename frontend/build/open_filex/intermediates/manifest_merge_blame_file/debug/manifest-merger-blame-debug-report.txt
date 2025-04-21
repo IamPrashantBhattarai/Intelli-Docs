@@ -1,0 +1,47 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.crazecoder.openfile" >
+5
+6    <uses-sdk android:minSdkVersion="16" />
+7
+8    <uses-permission
+8-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:5:5-7:38
+9        android:name="android.permission.READ_EXTERNAL_STORAGE"
+9-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:6:9-64
+10        android:maxSdkVersion="32" />
+10-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:7:9-35
+11    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+11-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:9:5-76
+11-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:9:22-73
+12    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+12-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:10:5-75
+12-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:10:22-72
+13    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+13-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:11:5-75
+13-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:11:22-72
+14
+15    <application>
+15-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:13:5-25:19
+16        <provider
+16-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:14:9-24:20
+17            android:name="com.crazecoder.openfile.FileProvider"
+17-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:15:13-64
+18            android:authorities="${applicationId}.fileProvider.com.crazecoder.openfile"
+18-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:16:13-88
+19            android:exported="false"
+19-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:17:13-37
+20            android:grantUriPermissions="true"
+20-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:18:13-47
+21            tools:replace="android:authorities" >
+21-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:19:13-48
+22            <meta-data
+22-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:20:13-23:20
+23                android:name="android.support.FILE_PROVIDER_PATHS"
+23-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:21:17-67
+24                android:resource="@xml/filepaths" />
+24-->C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\open_filex-4.6.0\android\src\main\AndroidManifest.xml:22:17-50
+25        </provider>
+26    </application>
+27
+28</manifest>

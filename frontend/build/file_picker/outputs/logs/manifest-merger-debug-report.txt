@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
+INJECTED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:1:1-9:12
+	package
+		ADDED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:2:3-45
+		INJECTED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:1:11-69
+queries
+ADDED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:3:3-8:13
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:4:5-7:14
+action#android.intent.action.GET_CONTENT
+ADDED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:5:7-66
+	android:name
+		ADDED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:5:15-63
+data
+ADDED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:6:7-38
+	android:mimeType
+		ADDED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml:6:13-35
+uses-sdk
+INJECTED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-9.0.0\android\src\main\AndroidManifest.xml

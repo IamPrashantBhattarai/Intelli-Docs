@@ -1,0 +1,7 @@
+.env
+
+myvenv
+clip_finetuned/
+fine_tuned_model/
+
+user_content/

@@ -1,95 +1,83 @@
-Intelli-Docs: AI-Powered Personal Document Assistant
- 
-Intelli-Docs is an innovative AI-powered system designed to simplify the management and retrieval of personal documents using Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), and image retrieval technologies. This project, submitted as part of the Bachelor of Engineering in Computer Engineering at Tribhuvan University, Purwanchal Campus, addresses challenges in traditional document management by offering secure storage, OCR-based text extraction, and intelligent search capabilities.
+# Intelli-Docs: AI-Powered Personal Document Assistant
 
-Table of Contents
+**Intelli-Docs** is an AI-powered system that simplifies personal document management using Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), and image retrieval. Developed for the Bachelor of Engineering in Computer Engineering at Tribhuvan University, Purwanchal Campus, this project addresses traditional document handling with OCR, intelligent search, and secure storage.
 
-Features
-Installation
-Usage
-Project Report
-Contributing
-License
-Team
+## 🚀 Features
 
-Features
+- **OCR Text Extraction**: Extracts text from scanned images (IDs, certificates) using Pytesseract.
+- **Image Retrieval**: Uses OpenAI CLIP for visual document search.
+- **Intelligent Search**: Supports natural language queries via RAG + LLMs.
+- **Secure Storage**: Cloudinary-backed document storage.
+- **Mobile Interface**: Flutter-based mobile app for accessibility.
 
-OCR Text Extraction: Uses Pytesseract to digitize text from scanned documents like IDs and certificates.
-Image Retrieval: Leverages CLIP for visual document search and retrieval.
-Intelligent Search: Implements RAG and LLMs for natural language-based document queries.
-Secure Storage: Integrates Cloudinary for safe and scalable document management.
-Mobile Interface: Features a Flutter-based app for user-friendly access.
+## 🛠 Installation
 
-Installation
-Prerequisites
+### Prerequisites
 
-Python 3.8+
-TensorFlow 2.10
-Pytesseract
-Flask
-Flutter 3.x
-FastAPI
-Cloudinary SDK
-(Optional) CUDA-enabled GPU for faster processing
+- Python 3.8+
+- TensorFlow 2.10
+- Flask & FastAPI
+- Pytesseract
+- Cloudinary SDK
+- Flutter 3.x
+- (Optional) CUDA-enabled GPU
 
-Steps
+### Steps
 
-Clone the repository:git clone https://github.com/your-username/intelli-docs.git
+```bash
+git clone https://github.com/your-username/intelli-docs.git
+cd intelli-docs
+pip install -r requirements.txt
+```
 
+- Set up Flutter (see [Flutter docs](https://docs.flutter.dev/get-started)).
+- Add Cloudinary credentials to `config.yaml`.
 
-Navigate to the project directory:cd intelli-docs
+### Run the App
 
+```bash
+uvicorn app.main:app --reload  # Start backend
+flutter run                    # Launch Flutter app
+```
 
-Install Python dependencies:pip install -r requirements.txt
+## 📱 Usage
 
+Upload documents (PDFs, images) and ask natural language questions like:
 
-Set up Flutter environment (follow Flutter setup guide).
-Configure Cloudinary credentials in config.yaml.
-Run the backend:uvicorn app.main:app --reload
+> _“Who is our deputy head of department?”_  
+> ➜ _“Asst. Prof. Pukar Karki”_
 
+## 📸 Screenshots
 
-Launch the Flutter app:flutter run
+- ✅ Team Celebration
+- 🆔 ID Card Retrieval
+- 📲 App Interface
 
+## 📄 Project Report
 
+The complete project report (submitted March 2025) includes implementation, results, and references.
 
-Usage
-Running the App
+## 🤝 Contributing
 
-Start the backend server as described above.
-Open the Flutter app on your device or emulator.
-Upload documents (e.g., PDFs, images) and use natural language queries to retrieve information.
+```bash
+# Fork and clone
+git checkout -b feature/your-feature
+git commit -m "Add your feature"
+git push origin feature/your-feature
+```
 
-Example Query: Ask "Who is our deputy head of department?" to get "Asst. Prof. Pukar Karki."
-Screenshots
+Open a Pull Request to contribute!
 
-Thumbs Up Photo: Team Celebration
-ID Cards Retrieval: Sample ID Retrieval
-App Interface: Main App Screen
+## 📜 License
 
-Project Report
-The full project report, submitted in March 2025, is available here. It includes detailed methodology, implementation, results, and references.
-Contributing
-Contributions are welcome! To contribute:
+Licensed under the [MIT License](LICENSE).
 
-Fork the repository.
-Create a feature branch:git checkout -b feature/your-feature
+## 👥 Team
 
+- Kritika Thapa 
+- Prashant Bhattarai 
+- Roshan Chaudhary  
+- Saurab Baral 
 
-Commit changes:git commit -m "Add your feature"
+_For queries, use the [GitHub Issues](https://github.com/IamPrashantBhattarai/Intelli-Docs/issues) page._
 
-
-Push to the branch:git push origin feature/your-feature
-
-
-Open a Pull Request.
-
-License
-This project is licensed under the MIT License.
-Team
-
-Kritika Thapa 
-Prashant Bhattarai 
-Roshan Chaudhary 
-Saurab Baral 
-
-For inquiries, contact the team via the GitHub Issues page.

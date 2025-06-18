@@ -1,6 +1,6 @@
 # Intelli-Docs: AI-Powered Personal Document Assistant
 
-**Intelli-Docs** is an AI-powered system that simplifies personal document management using Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), and image retrieval. Developed for the Bachelor of Engineering in Computer Engineering at Tribhuvan University, Purwanchal Campus, this project addresses traditional document handling with OCR, intelligent search, and secure storage.
+**Intelli-Docs** is an AI-powered solution designed to simplify personal document management by combining Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), and image retrieval. Built as part of my Bachelor of Engineering in Computer Engineering at Tribhuvan University, Purwanchal Campus, this project tackles the limitations of traditional document handling with features like OCR-based text extraction, intelligent search, and secure cloud storage.
 
 ## 🚀 Features
 
